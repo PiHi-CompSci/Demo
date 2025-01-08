@@ -4,8 +4,7 @@
 @staticmethod
 # Define the main function: this is the entry point of the script
 def main():
-    print(intakeInfo())
-
+    pass
 @staticmethod
 def intakeInfo():
     age = input("What is your age? ")
