@@ -4,7 +4,6 @@
 @staticmethod
 # Define the main function: this is the entry point of the script
 def main():
-    print("Hello, world!")
     print(intakeInfo())
 
 @staticmethod
