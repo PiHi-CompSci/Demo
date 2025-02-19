@@ -1,8 +1,6 @@
-# Description: A simple Python script that does some random stuff as a demo for VCS
 
 
 @staticmethod
-# Define the main function: this is the entry point of the script
 def main():
     intakeInfo()
 
