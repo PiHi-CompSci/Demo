@@ -1,8 +1,16 @@
-
+import random
 
 @staticmethod
 def main():
-    intakeInfo()
+    print(intakeInfo())
+    generateRandomNumber()
+
+@staticmethod
+def generateRandomNumber():
+    x = int(input("Enter the minimum number (X): "))
+    y = int(input("Enter the maximum number (Y): "))
+    random_number = random.randint(x, y)
+    print(f"The random number between {x} and {y} is: {random_number}")
 
 @staticmethod
 def intakeInfo():
